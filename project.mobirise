@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "aboutus.html",
+    "currentPage": "social.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -27,12 +27,14 @@
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       },
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#fafafa"
+      ]
     },
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 28,
+    "uniqCompNum": 31,
     "versionPublish": "4.11.5",
     "favicon": "@PROJECT_PATH@/assets/images/lblogo-white-1.png",
     "": "lorinandbrent",
@@ -1787,12 +1789,12 @@
             "bgColorRadio": false,
             "bgColor": "#fafafa",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/instagram-background.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/forestgreenfabric.jpg",
             "overlay": false,
             "overlayColor": "#efefef",
             "overlayOpacity": 0.6
           },
-          "title": "<br>My Instagram Feed",
+          "title": "<br>Lorin's Instagram Feed",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"#\">Show more</a>",
           "display2": "display-2",
           "display4": "display-4",
@@ -1801,7 +1803,37 @@
             "Extension"
           ],
           "_name": "instagram-feed-block",
-          "_anchor": "instagram-feed-block-j"
+          "_anchor": "instagram-feed-block-j",
+          "_styles": {
+            ".inst__title": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": 0,
+            "postToLoad": 3,
+            "facebookToken": "",
+            "facebook": "",
+            "twitter": "lorin_brent",
+            "youtube": "UCYBnMbeJyRGo5RARUfDFmrA",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/forestgreenfabric.jpg",
+            "overlay": true,
+            "overlayColor": "#7e9b9f",
+            "overlayOpacity": 0.6
+          },
+          "alias": "social-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "feed",
+          "_anchor": "feed-u"
         },
         {
           "alias": false,
