@@ -1824,7 +1824,7 @@
             "bgColor": "#fff",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/forestgreenfabric.jpg",
-            "overlay": true,
+            "overlay": false,
             "overlayColor": "#7e9b9f",
             "overlayOpacity": 0.6
           },
